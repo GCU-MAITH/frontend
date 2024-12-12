@@ -25,7 +25,6 @@ export default function Home() {
     <>
       <h1 className="text-4xl font-bold">문제 생성</h1>
       <p>아직 구현 안 됨. Under construction</p>
-
       <Latex>We give illustrations for the {1 + 2} processes $e^+e^-$, gluon-gluon and $\\gamma\\gamma \\to W t\\bar b$.</Latex>
     </>
   );
