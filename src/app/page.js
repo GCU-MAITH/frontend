@@ -50,20 +50,33 @@ export default function Home() {
             </div>
             <p className="text-4xl font-bold">공지사항</p>
           </div>
-          <div className="relative bg-zinc-900 text-white flex items-center justify-center h-28 lg:h-full">
+          {/* <div className="relative bg-zinc-900 text-white flex items-center justify-center h-28 lg:h-full">
             <div className="absolute bottom-0 left-0 w-full h-full bg-zinc-300/40 p-4">
               <p className="text-2xl font-bold text-red-300">Under construction</p>
               <p className="text-lg">아직 준비 중인 기능입니다.</p>
             </div>
             <p className="text-4xl font-bold">고객센터</p>
-          </div>
-          <div className="relative bg-yellow-300 text-black flex items-center justify-center h-28 lg:h-full">
+          </div> */}
+           <Link className="relative bg-zinc-900 text-white flex items-center justify-center h-28 lg:h-full transition hover:scale-105" href="/customer_service">
+            <p className="text-4xl font-bold">고객 센터</p>
+            <div className="absolute top-0 right-0 p-4">
+              <i className="fas fa-circle-plus text-5xl"></i>
+            </div>
+          </Link>
+          {/* <div className="relative bg-yellow-300 text-black flex items-center justify-center h-28 lg:h-full">
             <div className="absolute bottom-0 left-0 w-full h-full bg-zinc-300/40 p-4">
               <p className="text-2xl font-bold text-red-500">Under construction</p>
               <p className="text-lg">아직 준비 중인 기능입니다.</p>
             </div>
             <p className="text-4xl font-bold">소개</p>
-          </div>
+          </div> */}
+
+          <Link className="relative bg-yellow-300 text-black flex items-center justify-center h-28 lg:h-full transition hover:scale-105" href="/program_info">
+            <p className="text-4xl font-bold">MAITH 소개</p>
+            <div className="absolute top-0 right-0 p-4">
+              <i className="fas fa-circle-plus text-5xl"></i>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
