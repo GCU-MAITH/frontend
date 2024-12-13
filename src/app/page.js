@@ -1,3 +1,4 @@
+import Logo from '@/components/Logo';
 import Link from 'next/link';
 
 export default function Home() {
@@ -8,8 +9,7 @@ export default function Home() {
           <div className="flex h-96 grow-0 items-center">
             <div className="flex flex-col gap-2">
               <div className="flex gap-4 text-4xl items-center">
-                <i className="fas fa-circle-plus"></i>
-                <p className="font-bold">MAITH</p>
+                <Logo />
               </div>
               <p>수학의 자신감, MAITH</p>
             </div>
@@ -21,7 +21,7 @@ export default function Home() {
             <p className="text-4xl font-bold transition group-hover:translate-x-2">마이페이지</p>
           </Link>
         </div>
-        <div className="grid grid-cols-1 xl:grid-cols-3 w-full gap-4 justify-stretch content-stretch h-screen sm:overflow-y-scroll py-4 lg:h-full lg:py-0">
+        <div className="grid grid-cols-1 xl:grid-cols-3 w-full gap-4 justify-stretch content-stretch h-fit sm:overflow-y-scroll lg:h-full lg:py-0">
           <Link className="relative bg-zinc-900 text-white flex items-center justify-center h-28 lg:h-full transition hover:scale-105" href="/questions/create">
             <p className="text-4xl font-bold">문제 생성</p>
             <div className="absolute top-0 right-0 p-4">

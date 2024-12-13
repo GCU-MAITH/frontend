@@ -14,7 +14,7 @@ export default function Home() {
     search.set('redirect_uri', location.protocol + '//' + location.host + '/auth/callback')
 
     location.href = 'https://accounts.google.com/o/oauth2/v2/auth?'+search.toString()
-  }, [])
+  }, []);
 
   return (
     <div className="flex mx-auto max-w-screen-xl h-screen gap-4 justify-center items-center">

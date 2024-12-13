@@ -90,7 +90,7 @@ export default function NoticePage() {
   }, []);
 
   return (
-    <div className="flex flex-col mx-auto max-w-screen-xl h-screen p-6 gap-6">
+    <div className="flex flex-col mx-auto max-w-screen-xl h-full p-6 gap-6">
       <div className="flex justify-center items-center">
         <h1 className="text-4xl font-bold">공지사항</h1>
       </div>
