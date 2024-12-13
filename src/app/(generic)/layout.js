@@ -90,11 +90,11 @@ export default function GenericLayout({ children }) {
         <div className="flex max-w-screen-xl mx-auto justify-between gap-8 px-4">
           <div className="flex flex-col gap-2">
             <Logo className="h-16 w-fit opacity-20" />
-            <p className="opacity-70">© 2021 MAITH. All rights reserved.</p>
+            <p className="opacity-70">© 2024 MAITH. All rights reserved.</p>
           </div>
-          <div className='flex justify-end gap-4'>
-            <Link href="/policy/terms" className="text-zinc-500 transition hover:text-blue-700">이용약관</Link>
-            <Link href="/policy/privacy" className="text-zinc-500 transition hover:text-blue-700">개인정보 처리방침</Link>
+          <div className='flex justify-end gap-2 shrink-0'>
+            <Link href="/policy/terms" className="text-sm text-zinc-500 transition hover:text-blue-700">이용약관</Link>
+            <Link href="/policy/privacy" className="text-sm text-zinc-500 transition hover:text-blue-700">개인정보 처리방침</Link>
           </div>
         </div>
       </footer>
